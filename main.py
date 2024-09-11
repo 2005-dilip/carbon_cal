@@ -2,7 +2,6 @@ import streamlit as st
 import openai
 from dotenv import load_dotenv
 import os
-import plotly.graph_objects as go
 # Set up OpenAI API
 # Load the .env file
 load_dotenv()
