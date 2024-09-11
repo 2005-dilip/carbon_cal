@@ -7,7 +7,7 @@ import os
 load_dotenv()
 
 # Fetch the API key from the environment
-openai.api_key =st.secretes["api_key"]
+openai.api_key =st.secrets["api_key"]
 
 
 # Streamlit app title
